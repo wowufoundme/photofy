@@ -197,3 +197,37 @@ input.file_upload[type="file"] {
 .font_monospace {
     font-family: 'JetBrains Mono', monospace;
 }
+
+
+/* Grid Section */
+
+.grid-overlap {
+    --gap:          16px;
+    --num-cols:     3;
+    --row-height:   300px;
+
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+@media all and (max-width: 1440px) {
+    .grid-overlap {
+        --num-cols:     2;
+        --row-height:   250px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .grid-overlap {
+        --num-cols:     1;
+        --row-height:   250px;
+    }
+}
+
+.grid-overlap > figure > img {
+    width: 100%;
+    height: 100%;
+}
