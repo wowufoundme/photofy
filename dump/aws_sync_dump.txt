@@ -1,0 +1,6 @@
+Completed 1.3 KiB/6.0 KiB (2.9 KiB/s) with 6 file(s) remainingupload: artifacts\index_photos.zip to s3://photofy-app/artifacts/index_photos.zip
+Completed 1.3 KiB/6.0 KiB (2.9 KiB/s) with 5 file(s) remainingupload: dump\aws_sync_dump.txt to s3://photofy-app/dump/aws_sync_dump.txt
+Completed 1.3 KiB/6.0 KiB (2.9 KiB/s) with 4 file(s) remainingCompleted 2.4 KiB/6.0 KiB (4.4 KiB/s) with 4 file(s) remainingCompleted 3.7 KiB/6.0 KiB (6.6 KiB/s) with 4 file(s) remainingupload: artifacts\search_photos.zip to s3://photofy-app/artifacts/search_photos.zip
+Completed 3.7 KiB/6.0 KiB (6.6 KiB/s) with 3 file(s) remainingCompleted 4.9 KiB/6.0 KiB (8.8 KiB/s) with 3 file(s) remainingupload: dump\log_lf1_output.json to s3://photofy-app/dump/log_lf1_output.json
+Completed 4.9 KiB/6.0 KiB (8.8 KiB/s) with 2 file(s) remainingupload: dump\log_lf2_output.json to s3://photofy-app/dump/log_lf2_output.json
+Completed 4.9 KiB/6.0 KiB (8.8 KiB/s) with 1 file(s) remainingCompleted 6.0 KiB/6.0 KiB (10.8 KiB/s) with 1 file(s) remainingupload: .\aws_sync.bat to s3://photofy-app/aws_sync.bat        

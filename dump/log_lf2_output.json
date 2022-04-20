@@ -1,0 +1,35 @@
+{
+    "FunctionName": "LF2-search-photos",
+    "FunctionArn": "arn:aws:lambda:us-east-1:438391282585:function:LF2-search-photos",
+    "Runtime": "python3.8",
+    "Role": "arn:aws:iam::438391282585:role/service-role/LF2-search-photos-role-lxf70z9w",
+    "Handler": "search_photos.lambda_handler",
+    "CodeSize": 1276,
+    "Description": "",
+    "Timeout": 10,
+    "MemorySize": 128,
+    "LastModified": "2022-04-20T18:24:41.000+0000",
+    "CodeSha256": "tMQfyQ9OnL/mZG7wjfffhPO9BGqJCaHU/7TV4Yu0wTY=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "2b06a59c-2e89-49d1-ab49-83131d591466",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:us-east-1:438391282585:layer:dependencies:2",
+            "CodeSize": 1319716
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    }
+}
