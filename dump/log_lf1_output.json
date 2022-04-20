@@ -8,8 +8,8 @@
     "Description": "",
     "Timeout": 10,
     "MemorySize": 128,
-    "LastModified": "2022-04-20T18:28:45.000+0000",
-    "CodeSha256": "fkgBSWivNgBZXu8AJLFfq3yAkFiO8q2Vdv1KdDjl6n0=",
+    "LastModified": "2022-04-20T21:40:59.000+0000",
+    "CodeSha256": "9zToLoQ9SkEX6H+eJxIzv+O/x9vTTkG4FTnydobnReU=",
     "Version": "$LATEST",
     "VpcConfig": {
         "SubnetIds": [],
@@ -19,7 +19,7 @@
     "TracingConfig": {
         "Mode": "PassThrough"
     },
-    "RevisionId": "8e44e2b6-102e-44f5-83f5-2550664c535c",
+    "RevisionId": "e36ab526-00b3-426f-8696-bd7dda4d8b16",
     "Layers": [
         {
             "Arn": "arn:aws:lambda:us-east-1:438391282585:layer:dependencies:2",
