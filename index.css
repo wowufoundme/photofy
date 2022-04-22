@@ -112,9 +112,11 @@ input.file_upload[type="file"] {
 .nav-toggle-container {
     position: fixed;
     z-index: 9998;
-    top: 10px;
+    top: 20px;
     left: 30px;
     cursor: pointer;
+    border-radius: 50%;
+    background: white;
 }
 
 @media (max-width: 768px) {
@@ -196,6 +198,19 @@ input.file_upload[type="file"] {
 
 .font_monospace {
     font-family: 'JetBrains Mono', monospace;
+}
+
+.list_keywords {
+    background-color: white;
+    overflow-y: scroll;
+    max-height: 600px;
+    padding: 20px 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+.list_keywords::-webkit-scrollbar {
+    width: 0px;
 }
 
 

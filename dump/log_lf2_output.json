@@ -8,13 +8,13 @@
     "Description": "",
     "Timeout": 10,
     "MemorySize": 128,
-    "LastModified": "2022-04-20T21:41:01.000+0000",
-    "CodeSha256": "AWWbKejChlynKldlgfV3tuCHrFZbqTeyJJZvZhghOOU=",
+    "LastModified": "2022-04-22T06:12:51.000+0000",
+    "CodeSha256": "rMYUKafjnxb8+YMcVayfvB4TEAs1RKWs/eh+eA2lU80=",
     "Version": "$LATEST",
     "TracingConfig": {
         "Mode": "PassThrough"
     },
-    "RevisionId": "8d8e73cd-6e2e-499c-a525-0a1158ccea9b",
+    "RevisionId": "e96b4959-80bb-483d-a1b8-92b74c310490",
     "Layers": [
         {
             "Arn": "arn:aws:lambda:us-east-1:438391282585:layer:dependencies:2",

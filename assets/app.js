@@ -44,3 +44,18 @@ function pseudo_progress_bar() {
         elem_parent.display.display = "none";
     }, 1500);
 }
+
+async function setKeywordList() {
+    list = document.getElementById("keywords_list")
+    const response = await fetch("https://fqgas4zyjj.execute-api.us-east-1.amazonaws.com/v1/keywords")
+    const data = await response.json().then(function(data) {
+        data.sort()
+        for (let i = 0; i < data.length; i++) {
+            list.innerHTML += `
+            <li class="my-2 text-gray-900"><span class="bg-gray-800 px-2 py-1 text-center text-slate-100 rounded">${data[i]}</span></li>
+            `
+        }
+    })
+}
+
+setKeywordList()
